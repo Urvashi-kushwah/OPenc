@@ -1,7 +1,11 @@
 import cv2 as cv
 
-img = cv.imread('"C:/Users/kushw/OneDrive/Desktop/urvi.jpeg"')
-cv.imshow('people', img)
+#img = cv.imread('lady.jpeg')
+#cv.imshow('Person', img)
+
+img = cv.imread('gp.jpeg')
+cv.imshow('Group of 4 people',img)
+
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow('Gray People', gray)
